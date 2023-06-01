@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Exercício 1 - MOD 1</title>
+
+    </head>
+        <!-- Exibir a média de 3 números com entradas pelo formulário HTML-->
+    <body>
+        <header>
+            <h1>Calcular Média</h1>
+        </header>
+
+        <section>
+            <div>
+                <p>Primeira nota:
+                    <input type="number" name="primNota" id="medUm">
+                </p>
+            </div>
+            <div>
+                <p>Segunda nota:
+                    <input type="number" name="segNota" id="medDois">
+                </p>
+            </div>
+            <div>
+                <p>
+                    Terceira nota:
+                    <input type="number" name="tercNota" id="medTres">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input type="button" value="Calcular média" onclick="calcular()">
+                </p>
+            </div>
+
+            <div id="res">
+                Contando...
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
